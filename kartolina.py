@@ -4,8 +4,8 @@ st.subheder("Nje kartolin per ty")
 urim_per_mesuesit={
     "Xheni":"Ju falenderojm per dijet qe na jepni ne teknologji",
     "Gjadiolja":"JU falenderoj per dijet qe na jepni ne anglisht",
-    "Andon":"JU falenderoj per dijet qe na jepni ne art"
-    "Luli":"JU falenderoj per dijet qe na jepni ne biologji"
+    "Andon":"JU falenderoj per dijet qe na jepni ne art",
+    "Luli":"JU falenderoj per dijet qe na jepni ne biologji",
     "Luiza":"JU falenderoj per dijet qe na jepni ne matematik"
 }
 
@@ -33,4 +33,5 @@ st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
