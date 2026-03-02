@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title"Kartolin per & Mars")
+st.set_page_config(page_title="Kartolin per & Mars")
 st.subheder("Nje kartolin per ty")
 urim_per_mesuesit={
     "Xheni":"Ju falenderojm per dijet qe na jepni ne teknologji",
@@ -33,3 +33,4 @@ st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
