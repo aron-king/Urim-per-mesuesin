@@ -16,8 +16,9 @@ if st.button("🌷Shfaq urimin🌷"):
         st.warning("Ju lutem plotesoni emrin tuaj")
     elif emri not in urim_per_mesuesit:
         st.error("Ky mesues nuk punon ne shkollen tone")
-        else
+    else:
             urimi_personal = urim_per_mesuesit[emri]
+        st.success(urimi_personal)
             st.markdown(f"""
             <div style="
             text-align:center;
@@ -34,6 +35,7 @@ if st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
 
