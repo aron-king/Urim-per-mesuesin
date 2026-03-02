@@ -13,7 +13,7 @@ emri = st.text_input("Vendosni emrin tuaj: ")
 if st.button("🌷Shfaq urimin🌷"):
     if not emri:
         st.warning("Ju lutem plotesoni emrin tuaj")
-    elif: emri not in urim_per_mesuesit:
+    elif emri not in urim_per_mesuesit:
         st.error("Ky mesues nuk punon ne shkollen tone")
         else:
             urimi_personal=urim_per_mesuesit[emri]
@@ -33,6 +33,7 @@ if st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
 
