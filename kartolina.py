@@ -9,8 +9,8 @@ urim_per_mesuesit={
     "Luiza":"JU falenderoj per dijet qe na jepni ne matematik"
 }
 
-st.text_input("Vendosni emrin tuaj: ")
-st.button("🌷Shfaq urimin🌷"):
+emri = st.text_input("Vendosni emrin tuaj: ")
+if st.button("🌷Shfaq urimin🌷"):
     if not emri:
         st.warning("ju lutem plotesoni emrin tuaj")
     elif emri not in urim_per_mesuesit:
@@ -33,5 +33,6 @@ st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
