@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config(page_title="Kartolin per & Mars")
 st.subheder("Nje kartolin per ty")
-urim_per_mesuesit={
+urim_per_mesuesit = {
     "Xheni":"Ju falenderojm per dijet qe na jepni ne teknologji",
     "Gjadiolja":"JU falenderoj per dijet qe na jepni ne anglisht",
     "Andon":"JU falenderoj per dijet qe na jepni ne art",
@@ -14,7 +14,7 @@ if st.button("🌷Shfaq urimin🌷"):
     if not emri:
         st.warning("ju lutem plotesoni emrin tuaj")
     elif emri not in urim_per_mesuesit:
-        st.error("Ky mesues nuk punon ne shkollen 22 Tetori")
+        st.error("Ky mesues nuk punon ne shkollen tone")
         else:
             urimi_personal=urim_per_mesuesit[emri]
             st.markdown(f"""
@@ -33,6 +33,7 @@ if st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
 
