@@ -26,7 +26,7 @@ urim_per_mesuesit={
      "Vojsava":"Ju falenderoj per dijet qe na jepni ne histori",
      "Margarita":"Ju falenderoj per dijet qe na jepni ne gjuhe shqipe",
      "Anila":"Ju falenderoj per dijet qe na jepni ne gjografi",
-     "Abi":"JU falenderoj qe jeni nje mama e dashur dhe e bukur si une🤣🤣",
+
 
 }
 emri=st.text_input("Vendosni emrin tuaj: ")
@@ -57,6 +57,7 @@ if st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
 
