@@ -28,7 +28,7 @@ urim_per_mesuesit={
      "Anila":"Ju falenderoj per dijet qe na jepni ne gjografi",
 
 }
-emri=st.text_inpup("Vendosni emrin tuaj: ")
+emri=st.text_input("Vendosni emrin tuaj: ")
 if st.button("🌷Shfaq urimin🌷"):
     if not emri:
         st.warning("Ju lutem plotesoni emrin tuaj")
@@ -56,6 +56,7 @@ if st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
 
