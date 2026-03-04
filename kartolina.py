@@ -20,7 +20,7 @@ urim_per_mesuesit={
      "Genta":"Ju falenderoj per mbikqyrjen dhe prezencen qe keni ne drejtori",
      "Arta":"Ju falenderoj per kontrollin dhe mbeshtetjen qe na jepni",
      "Paçi":"Ju falenderoj per dijet qe na jepni ne aftesim teknologjik",
-     "Zeni":"Ju falenderoj per dijet qe na jepni ne fizkultur"
+     "Zeni":"Ju falenderoj per dijet qe na jepni ne fizkultur",
      "Egla":"Ju falenderoj per dijet qe na jepni ne gjuhe shqipe",
      "Erdita":"Ju falenderoj per dijet qe na jepni ne gjuhe shqipe",
      "Vojsava":"Ju falenderoj per dijet qe na jepni ne histori",
@@ -56,6 +56,7 @@ if st.button("🌷Shfaq urimin🌷"):
                 </div>
 
                   """, unsafe_allow_html=True)
+
 
 
 
